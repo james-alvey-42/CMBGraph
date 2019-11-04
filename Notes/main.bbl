@@ -1,0 +1,42 @@
+\begin{thebibliography}{3}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname bibnamefont\endcsname\relax
+  \def\bibnamefont#1{#1}\fi
+\expandafter\ifx\csname bibfnamefont\endcsname\relax
+  \def\bibfnamefont#1{#1}\fi
+\expandafter\ifx\csname citenamefont\endcsname\relax
+  \def\citenamefont#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\bibinfo}[2]{#2}
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{\citenamefont{Hinshaw et~al.}(2013)}]{Hinshaw:2012aka}
+\bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{Hinshaw}} \bibnamefont{et~al.}
+  (\bibinfo{collaboration}{WMAP}), \bibinfo{journal}{Astrophys. J. Suppl.}
+  \textbf{\bibinfo{volume}{208}}, \bibinfo{pages}{19} (\bibinfo{year}{2013}),
+  \eprint{1212.5226}.
+
+\bibitem[{\citenamefont{Aghanim et~al.}(2018)}]{Aghanim:2018eyx}
+\bibinfo{author}{\bibfnamefont{N.}~\bibnamefont{Aghanim}} \bibnamefont{et~al.}
+  (\bibinfo{collaboration}{Planck}) (\bibinfo{year}{2018}),
+  \eprint{1807.06209}.
+
+\bibitem[{\citenamefont{Battaglia et~al.}(2018)\citenamefont{Battaglia,
+  Hamrick, Bapst, Sanchez{-}Gonzalez, Zambaldi, Malinowski, Tacchetti, Raposo,
+  Santoro, Faulkner et~al.}}]{DBLP:journals/corr/abs-1806-01261}
+\bibinfo{author}{\bibfnamefont{P.~W.} \bibnamefont{Battaglia}},
+  \bibinfo{author}{\bibfnamefont{J.~B.} \bibnamefont{Hamrick}},
+  \bibinfo{author}{\bibfnamefont{V.}~\bibnamefont{Bapst}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Sanchez{-}Gonzalez}},
+  \bibinfo{author}{\bibfnamefont{V.~F.} \bibnamefont{Zambaldi}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Malinowski}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Tacchetti}},
+  \bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Raposo}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Santoro}},
+  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Faulkner}},
+  \bibnamefont{et~al.}, \bibinfo{journal}{CoRR}  (\bibinfo{year}{2018}),
+  \eprint{1806.01261}.
+
+\end{thebibliography}
