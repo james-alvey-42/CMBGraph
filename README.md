@@ -10,7 +10,7 @@ We will look to answer the following basic question:
 
 > What is the best format to reconstruct the CMB temperature power spectrum from a given CMB map?
 
-# Methodology
+## Methodology
 
 To do so, we'll consider three basic structures and architectures:
 
