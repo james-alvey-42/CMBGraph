@@ -14,6 +14,8 @@ We will look to answer the following basic question:
 
 To do so, we'll consider three basic structures and architectures:
 
-A1. A very basic feedforward network with a one-dimensional input - we expect this to perform poorly and take a long time to train. Furthermore, we would expect it to not be robust at all to slight modifications (e.g. reorderings/deletions) in the original map.
-A2. A more complicated convolutional neural network acting on the true pixel map - we expect this to perform better as it has spatial information naturally encoded into the data format.
-A3. Finally, we will look at encoding the CMB as a graph (in the mathematical sense) with the power spectrum encoded in the edges. We expect this will be the most robust to any deletions and reorderings.
+1. A very basic feedforward network with a one-dimensional input - we expect this to perform poorly and take a long time to train. Furthermore, we would expect it to not be robust at all to slight modifications (e.g. reorderings/deletions) in the original map. **[A1]**
+
+2. A more complicated convolutional neural network acting on the true pixel map - we expect this to perform better as it has spatial information naturally encoded into the data format. **[A2]**
+
+3. Finally, we will look at encoding the CMB as a graph (in the mathematical sense) with the power spectrum encoded in the edges. We expect this will be the most robust to any deletions and reorderings. **[A3]**
